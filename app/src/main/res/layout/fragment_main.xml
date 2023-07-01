@@ -162,8 +162,9 @@
                                     style="?android:attr/progressBarStyleHorizontal"
                                     android:layout_width="25dp"
                                     android:layout_height="150dp"
-                                    android:max="100"
-                                    android:progress="64"
+                                    android:max="76"
+                                    tools:progress="86"
+                                    android:progress="@{usage.cpuTemperature}"
                                     android:progressDrawable="@drawable/vertical_progress" />
 
                                 <TextView
@@ -192,7 +193,8 @@
                                     android:layout_width="25dp"
                                     android:layout_height="150dp"
                                     android:max="100"
-                                    android:progress="90"
+                                    tools:progress="86"
+                                    android:progress="@{usage.gpuTemperature}"
                                     android:progressDrawable="@drawable/vertical_progress" />
 
                                 <TextView

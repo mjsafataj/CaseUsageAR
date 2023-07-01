@@ -53,9 +53,9 @@ class MainFragment : Fragment() {
         }
 
 
-        Handler().postDelayed({
-            onTextFound("case1")
-        }, 2000)
+//        Handler().postDelayed({
+//            onTextFound("case1")
+//        }, 2000)
 
         return binding.root
     }
